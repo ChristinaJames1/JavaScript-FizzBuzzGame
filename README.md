@@ -1,7 +1,7 @@
 <h1>JavaScript - FizzBuzz Game(Testing Logic, Loops & Conditions</h1>
 
 <h2>Description</h2>
-This programming project uses Node.js inside Debian to run a FizzBuzz JavaScript program. The program will print numbers from 1 to 100. For every number divisible by 3, it prints "Fizz". For every number that is divisible by 5, it prints "Buzz" instead. Numbers divisible by both 3 and 5, will be printed as "FizzBuzz". If none of those conditions exist, just the number is printed. 
+This programming project uses Node.js inside Debian to run a FizzBuzz JavaScript program. The program will print numbers from 1 to 100. For every number divisible by 3, it prints "Fizz". For every number that is divisible by 5, it prints "Buzz" instead. Numbers divisible by both 3 and 5, will be printed as "FizzBuzz". If none of those conditions exist, just the number is printed. The web version outputs to the console instead of the screen.
 <br />
 
 
