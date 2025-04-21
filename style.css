@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FizzBuzz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1.2em;
+            color:#665;
+        }
+
+        code {
+            background-color: #e8e8e7;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>FizzBuzz in Console</h1>
+    <p>Open your browser's <code>Console</code> to see the FizzBuzz output.</p>
+
+    <script>
+        console.log("The following will count from numbers 1 to 100,");
+        console.log("multiples of 3 display 'Fizz'");
+        console.log("multiples of 5 display 'Buzz'");
+        console.log("multiples of 3 & 5 display 'FizzBuzz'");
+        console.log("All other numbers display as they are:\n");
+
+        for (let n = 1; n <= 100; n++) {
+            let output = '';
+            if (n % 3 === 0) output += 'Fizz';
+            if (n % 5 === 0) output += 'Buzz';
+
+            console.log(output || n);
+        }
+    </script>
+</body>
+</html>
